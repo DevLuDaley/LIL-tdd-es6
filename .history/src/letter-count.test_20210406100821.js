@@ -1,0 +1,1 @@
+import getLetterCount from './letter-count';
