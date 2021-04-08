@@ -1,23 +1,23 @@
 import { getLetterCount } from './letter-count';
 
+const getLetterCount = string => {
 // const getLetterCount = string => {
-// // const getLetterCount = string => {
-//     const letters = string.split('');
-//     let letterCount = {};
+    const letters = string.split('');
+    let letterCount = {};
 
-//     letters.forEach(letter => {
-//         if (!letterCount[letter]) {
-//             letterCount[letter] = 1
-//         }
-//         else { letterCount[letter] += 1 }
-//     })
-//     return letterCount;
-// }
+    letters.forEach(letter => {
+        if (!letterCount[letter]) {
+            letterCount[letter] = 1
+        }
+        else { letterCount[letter] += 1 }
+    })
+    return letterCount;
+}
 
 
+// export const isAnagram = (string1, string2) => {
 import _ from "lodash";
-export const isAnagram = (string1, string2) => {
-// const isAnagram = (string1, string2) => {
+const isAnagram = (string1, string2) => {
     // define Anagram string
         //  2 words with same # of letters used the same amount of times
         // ! use getLetterCount to compare

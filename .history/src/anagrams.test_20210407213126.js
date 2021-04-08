@@ -19,7 +19,7 @@ describe('isAnagram', () => {
         // const expected = ('word1, word2');
         // const actual = anagrams('word1', 'word5');
         // const actual = isAnagram('word1', 'word5');
-        const actual = isAnagram('cat', 'tacg');
+        const actual = isAnagram('cat', 'tagc');
         expect(actual).to.deep.equal(false);
     });
     // it('returns an empty object when passed an empty string', () => {
