@@ -49,6 +49,7 @@ export const isAnagram = (string1, string2) => {
         console.log('string2Count ', string2Count);
             return false
         }
+            
     // declare string
     // reverse string
     // compare declaredString to reversedString
